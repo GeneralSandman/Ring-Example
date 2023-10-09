@@ -2,22 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Ring Language Example: Hello World</title>
+    <title>Ring Language Example: Install</title>
     <link rel=stylesheet href="site.css">
   </head>
   <script>
       onkeydown = (e) => {
           
-          if (e.key == "ArrowLeft") {
-              window.location.href = 'install';
-          }
           
+          if (e.key == "ArrowRight") {
+              window.location.href = 'hello-world';
+          }
           
       }
   </script>
   <body>
-    <div class="example" id="hello-world">
-      <h2><a href="./">Ring Language Example</a>: Hello World</h2>
+    <div class="example" id="install">
+      <h2><a href="./">Ring Language Example</a>: Install</h2>
       
       <table>
         
@@ -79,6 +79,10 @@ use <code>go run</code>.</p>
         
       </table>
       
+      
+      <p class="next">
+        Next example: <a href="hello-world">Hello World</a>.
+      </p>
       
 
     <p class="footer">
