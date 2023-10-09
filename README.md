@@ -61,7 +61,7 @@ The Go Gopher is copyright [Renée French](https://reneefrench.blogspot.com/) an
 
 ### Translations
 
-Contributor translations of the Go by Example site are available in:
+Contributor translations of the Ring Language Example site are available in:
 
 * [Chinese](https://gobyexample-cn.github.io/) by [gobyexample-cn](https://github.com/gobyexample-cn)
 * [French](http://le-go-par-l-exemple.keiruaprod.fr) by [keirua](https://github.com/keirua/gobyexample)
