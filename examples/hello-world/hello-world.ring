@@ -2,8 +2,11 @@
 // message. Here's the full source code.
 package main
 
-import "fmt"
+import {
+	fmt;
+}
 
-func main() {
-	fmt.Println("hello world")
+@main
+function main() {
+	fmt::println_string("Hello, world!");
 }

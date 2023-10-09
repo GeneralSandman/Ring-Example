@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Go by Example: Hello World</title>
+    <title>Ring Language Example: Hello World</title>
     <link rel=stylesheet href="site.css">
   </head>
   <script>
@@ -13,7 +13,7 @@
   </script>
   <body>
     <div class="example" id="hello-world">
-      <h2><a href="./">Go by Example</a>: Hello World</h2>
+      <h2><a href="./">Ring Language Example</a>: Hello World</h2>
       
       <table>
         
@@ -24,7 +24,7 @@ message. Here&rsquo;s the full source code.</p>
 
           </td>
           <td class="code leading">
-            <a href="https://go.dev/play/p/NeviD0awXjt"><img title="Run code" src="play.png" class="run" /></a><img title="Copy code" src="clipboard.png" class="copy" />
+            <a href="https://go.dev/play/p/4ZyprYoxRoi"><img title="Run code" src="play.png" class="run" /></a><img title="Copy code" src="clipboard.png" class="copy" />
           <pre class="chroma">
 package main</pre>
           </td>
@@ -36,7 +36,9 @@ package main</pre>
           </td>
           <td class="code leading">
             
-          <pre class="chroma">import &#34;fmt&#34;</pre>
+          <pre class="chroma">import {
+    fmt;
+}</pre>
           </td>
         </tr>
         
@@ -46,8 +48,9 @@ package main</pre>
           </td>
           <td class="code">
             
-          <pre class="chroma">func main() {
-    fmt.Println(&#34;hello world&#34;)
+          <pre class="chroma">@main
+function main() {
+    fmt::println_string(&#34;Hello, world!&#34;);
 }</pre>
           </td>
         </tr>
@@ -62,51 +65,11 @@ package main</pre>
 use <code>go run</code>.</p>
 
           </td>
-          <td class="code leading">
+          <td class="code">
             
           <pre class="chroma">
 <span class="gp">$</span> ring run hello-world.ring
 <span class="go">hello world</span></pre>
-          </td>
-        </tr>
-        
-        <tr>
-          <td class="docs">
-            <p>Sometimes we&rsquo;ll want to build our programs into
-binaries. We can do this using <code>go build</code>.</p>
-
-          </td>
-          <td class="code leading">
-            
-          <pre class="chroma">
-<span class="gp">$</span> go build hello-world.go
-<span class="gp">$</span> ls
-<span class="go">hello-world    hello-world.go</span></pre>
-          </td>
-        </tr>
-        
-        <tr>
-          <td class="docs">
-            <p>We can then execute the built binary directly.</p>
-
-          </td>
-          <td class="code leading">
-            
-          <pre class="chroma">
-<span class="gp">$</span> ./hello-world
-<span class="go">hello world</span></pre>
-          </td>
-        </tr>
-        
-        <tr>
-          <td class="docs">
-            <p>Now that we can run and build basic Go programs, let&rsquo;s
-learn more about the language.</p>
-
-          </td>
-          <td class="code empty">
-            
-          
           </td>
         </tr>
         
@@ -115,13 +78,13 @@ learn more about the language.</p>
       
 
     <p class="footer">
-      by <a href="https://markmcgranaghan.com">Mark McGranaghan</a> and <a href="https://eli.thegreenplace.net">Eli Bendersky</a> | <a href="https://github.com/GeneralSandman/Ring-Example">source</a> | <a href="https://github.com/GeneralSandman/Ring-Example#license">license</a>
+      by <a href="http://zhenhuli.ring.wiki/#/">ZhenhuLi</a> | <a href="https://github.com/GeneralSandman/Ring-Example">source</a> | <a href="https://github.com/GeneralSandman/Ring-Example#license">license</a>
     </p>
 
     </div>
     <script>
       var codeLines = [];
-      codeLines.push('');codeLines.push('');codeLines.push('');codeLines.push('');codeLines.push('');codeLines.push('');codeLines.push('');
+      codeLines.push('');codeLines.push('');codeLines.push('');codeLines.push('');
     </script>
     <script src="site.js" async></script>
   </body>
