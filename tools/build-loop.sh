@@ -5,7 +5,7 @@ trap "{ echo finishing; TRAPPING=1; }" SIGINT
 
 while :
 do
-  tools/build
+  tools/build.sh
   RET=$?
   if [ $RET -eq 0 ]; then
     echo "success"

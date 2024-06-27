@@ -13,7 +13,7 @@ verbose && echo "Formatting code..."
 # tools/format
 
 verbose && echo "Measuring line lengths..."
-tools/measure
+tools/measure.sh
 
 # SITE_DIR is the final location where we want generated content to be
 SITE_DIR="public"
@@ -27,7 +27,7 @@ function cleanup() {
 trap cleanup EXIT
 
 verbose && echo "Generating HTML to $GENERATE_DIR..."
-tools/generate $GENERATE_DIR
+tools/generate.sh $GENERATE_DIR
 
 # In TESTING mode, make sure that the generated content is identical to
 # what's already in SITE_DIR. If a difference is found, this script exits

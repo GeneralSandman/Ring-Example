@@ -22,13 +22,13 @@ CloudFront, for example.
 To build the site you'll need Go installed. Run:
 
 ```console
-./tools/build
+./tools/build.sh
 ```
 
 To build continuously in a loop:
 
 ```console
-./tools/build-loop
+./tools/build-loop.sh
 ```
 
 To see the site locally:
