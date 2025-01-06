@@ -6,7 +6,6 @@ import {
 	fmt;
 }
 
-@main
-function main() {
-	fmt::println_string("Hello, world!");
+fn main() {
+	fmt::println("Hello, world!");
 }
